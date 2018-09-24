@@ -1,0 +1,1 @@
+figure > img [class*=progressiveMedia], div [class*=progressiveMedia] {display:none !important;} /* for medium */
