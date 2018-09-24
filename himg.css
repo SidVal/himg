@@ -1,1 +1,1 @@
-figure > img [class*=progressiveMedia], div [class*=progressiveMedia] {display:none !important;} /* for medium */
+figure > img [class*=progressiveMedia], figure > img [class*=image], div [class*=progressiveMedia] {display:none !important;} /* for medium */
