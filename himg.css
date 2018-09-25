@@ -1,2 +1,2 @@
-figure > img [class*=progressiveMedia], figure > img [class*=image], div [class*=progressiveMedia], article > img, article > video, article > iframe {display:none !important;}
+figure > img [class*=progressiveMedia], figure > img [class*=image], div [class*=progressiveMedia], img, video, iframe {display:none !important;}
 .lightbox, .thumbBlock {z-index: -1 !important;}
