@@ -1,0 +1,26 @@
+/* Bloque 1: por clase */
+figure>img[class*=progressiveMedia],
+figure>img[class*=image],
+div[class*=progressiveMedia],
+div[class*=widget],
+
+/* Bloque 2: elementos generales */
+img,
+img.block,
+video,
+iframe {
+  display:none!important;
+}
+
+/* Bloque 3: capas superpuestas */
+.lightbox,
+.thumbBlock {
+  z-index:-1!important;
+}
+
+/* Bloque 4: refuerzo contra JS/reactividad */
+img:not([style*="display: none"]),
+video:not([style*="display: none"]),
+iframe:not([style*="display: none"]) {
+  display:none!important;
+}
