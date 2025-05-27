@@ -1,2 +1,19 @@
-figure > img [class*=progressiveMedia], figure > img [class*=image], div [class*=progressiveMedia], div [class*=widget], img, video, iframe {display:none !important;}
-.lightbox, .thumbBlock {z-index: -1 !important;}
+figure > img[class*=progressiveMedia],
+figure > img[class*=image],
+div[class*=progressiveMedia],
+div[class*=widget],
+img,
+img.block,
+video,
+iframe {
+  display: none !important;
+}
+.lightbox,
+.thumbBlock {
+  z-index: -1 !important;
+}
+img:not([style*="display: none"]),
+video:not([style*="display: none"]),
+iframe:not([style*="display: none"]) {
+  display: none !important;
+}
